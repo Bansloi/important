@@ -1,0 +1,10 @@
+    <!-- donate payment getway -->
+    <div class="footer-title">
+        <button title="Donate Now" class="donate-link" id="upiButton">Make UPI Payment</button>
+
+    <script>
+        document.getElementById('upiButton').addEventListener('click', function() {
+            window.location.href = 'upi://pay?pa=BHARATPE09901285431@yesbankltd&pn=Bansloi%20Donation&mc=1234&tid=123456';
+        });
+    </script>
+    </div>
